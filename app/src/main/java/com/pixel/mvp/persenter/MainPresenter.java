@@ -26,9 +26,6 @@ public class MainPresenter extends BasePresenter<MainView, IMainModel> {
 
     @Override
     public void doAttachView(Bundle bundle) {
-
-        getView().initUi();
-
         model.loadData(new MainModelImpl.OnLoadOkListener() {
             @Override
             public void onOk(final String data) {

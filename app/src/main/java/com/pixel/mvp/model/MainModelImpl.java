@@ -8,6 +8,7 @@ package com.pixel.mvp.model;
 
 public class MainModelImpl implements IMainModel {
 
+    @Override
     public void loadData(final OnLoadOkListener listener) {
         new Thread(new Runnable() {
             @Override

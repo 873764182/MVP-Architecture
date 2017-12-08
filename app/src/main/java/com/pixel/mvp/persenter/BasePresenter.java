@@ -5,7 +5,9 @@ import android.os.Bundle;
 import java.lang.ref.WeakReference;
 
 /**
- * Created by pixel on 2017/9/24.
+ *
+ * @author pixel
+ * @date 2017/9/24
  * <p>
  * Presenter基础，持有View与Model。
  */
